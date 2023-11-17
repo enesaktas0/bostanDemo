@@ -60,7 +60,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/bostanDemo" element={<HomePage />}></Route>
           <Route
             path="/bostanDemo/menu"
             element={<Menu menuData={menuData} />}
