@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+.cakeImgDiv {
+  display: flex;
+  justify-content: center;
+}
+.cakeImg {
+  width: 1000px;
+}
+.aboutText {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutText p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .cakeImg {
+    width: 400px;
+  }
+  .aboutText {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .cakeImg {
+    width: 400px;
+  }
+  .aboutText {
+    width: 375px;
+  }
+}

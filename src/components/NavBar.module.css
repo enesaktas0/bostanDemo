@@ -1,0 +1,40 @@
+.navBar {
+  background-color: rgb(240, 89, 175);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px 150px 20px 150px;
+  height: 100px;
+}
+.bostanLogo {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  margin-left: 20px;
+}
+.navLink {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+:global(.active) {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+  }
+  .bostanLogo {
+    margin: 0;
+  }
+  .navLink {
+    font-size: 15px;
+    margin: 0;
+  }
+}
