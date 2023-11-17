@@ -13,7 +13,7 @@ export default function NavBar() {
         />
       </Link>
       <div>
-        <NavLink className={styles.navLink} to="/">
+        <NavLink className={styles.navLink} to="/bostanDemo">
           Anasayfa
         </NavLink>
         <NavLink className={styles.navLink} to="/bostanDemo/menu">
